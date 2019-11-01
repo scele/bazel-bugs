@@ -1,0 +1,5 @@
+workspace(name = "slow_hashing_of_external_repos")
+
+load("//:bigfile.bzl", "bigfile")
+
+bigfile(name = "bigfile")
